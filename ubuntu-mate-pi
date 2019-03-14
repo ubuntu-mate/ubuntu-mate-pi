@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-if [ -f $(which inxi) ]; then
-    inxi -CAGIpS
-else
-    uname -a
-fi
+cat <<EOM
+Thank you for choosing Ubuntu MATE for the Raspberry Pi!
+
+If you are seeking some support then join our community forums:
+
+  * https://ubuntu-mate.community
+
+EOM
