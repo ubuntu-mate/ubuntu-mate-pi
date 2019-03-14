@@ -1,0 +1,22 @@
+name: ubuntu-mate-pi
+version: git
+summary: Raspberry Pi system information for Ubuntu MATE
+description: |
+  Simple wrapper script to present Raspberry Pi system information
+  for the Ubuntu MATE Raspberry Pi images.
+
+architectures:
+  - build-on: armhf
+  - build-on: arm64
+
+grade: stable
+confinement: strict
+
+parts:
+  ubuntu-mate-pi:
+    plugin: dump
+    source: .
+
+apps:
+  ubuntu-mate-pi:
+    command: ubuntu-mate-pi
