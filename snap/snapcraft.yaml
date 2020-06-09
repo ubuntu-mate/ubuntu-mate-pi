@@ -1,4 +1,5 @@
 name: ubuntu-mate-pi
+base: core18
 version: git
 summary: Support informartion for users of Ubuntu MATE for the Pi
 description: |
