@@ -1,7 +1,7 @@
 name: ubuntu-mate-pi
-base: core18
+base: core20
 version: git
-summary: Support informartion for users of Ubuntu MATE for the Pi
+summary: Support information for users of Ubuntu MATE for the Pi
 description: |
   Simple script to present support and contact information for users of
   the Ubuntu MATE images for Raspberry Pi.
